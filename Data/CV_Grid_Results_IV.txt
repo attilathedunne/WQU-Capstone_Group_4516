@@ -1,0 +1,1096 @@
+
+
+
+**********
+Sector: = Auto Parts
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(mult2(negate(mult4(commonStock, mult10(depreciationAndAmortization, mult4(div5(accountsPayable, changeInWorkingCapital), sub(div10(add(mult3(div3(interestExpense, cashAndShortTermInvestments), changeInWorkingCapital), mult10(otherOperatingExpenses, liabilitiesAndStockholdersEquity)), netInvestedCapital), mult3(grossProfit, otherOperatingExpenses))))), div10(commonStock, div10(mult4(div3(totalRevenue, totalRevenue), netDebt), netInvestedCapital))), interestExpense), totalLiab)
+Size training data: (624, 43)
+
+Size test data: (162, 43)
+Final training population stats: {'avg': 0.3331179404187681, 'std': 0.11315600097582541, 'min': 0.0, 'max': 0.48}
+
+
+**********
+Sector: = REIT - Hotel & Motel
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 1.0
+precision = 1.0
+recall = 1.0
+f1_score = 1.0
+f0.5_score = 1.0
+Best performing rule = buy_sell(div3(retainedEarnings, div10(div3(netInvestedCapital, div10(div3(netInvestedCapital, div10(div10(div5(nonCurrentLiabilitiesTotal, totalCashFromFinancingActivities), negate(beginPeriodCashFlow, sellingGeneralAdministrative)), add(incomeBeforeTax, div3(mult5(nonCurrentLiabilitiesTotal, totalAssets), div3(netInvestedCapital, div10(div3(netInvestedCapital, div10(mult50(nonCurrentAssetsTotal, otherNonCashItems), add(operatingIncome, mult3(totalCashFromFinancingActivities, totalCurrentLiabilities)))), netInvestedCapital)))))), netInvestedCapital)), netInvestedCapital)), mult50(mult50(mult4(beginPeriodCashFlow, beginPeriodCashFlow), endPeriodCashFlow), endPeriodCashFlow))
+Size training data: (640, 43)
+
+Size test data: (163, 43)
+Final training population stats: {'avg': 0.4047457742904935, 'std': 0.3351369885949703, 'min': 0.0, 'max': 0.8333333333333334}
+
+
+**********
+Sector: = Apparel Retail
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div50(cashAndShortTermInvestments, protectedDiv(div10(totalAssets, nonCurrentLiabilitiesTotal), sub(mult4(nonCurrrentAssetsOther, nonCurrrentAssetsOther), div4(div3(div2(mul(mult4(grossProfit, operatingIncome), div2(protectedDiv(div10(totalAssets, nonCurrentLiabilitiesTotal), sub(totalOperatingExpenses, div4(div3(div50(mult5(div3(mult4(commonStockSharesOutstanding, nonCurrentLiabilitiesTotal), mult5(capitalExpenditures, netIncomeFromContinuingOps)), mult3(cash, div4(div3(div2(capitalExpenditures, netInvestedCapital), div5(depreciationAndAmortization, div5(negate(cash, sub(totalOperatingExpenses, div4(div3(div2(mul(mult4(grossProfit, operatingIncome), div2(div2(mult3(mult3(totalCurrentAssets, changeInWorkingCapital), commonStockSharesOutstanding), div10(otherNonCashItems, totalCurrentAssets)), interestExpense)), netInvestedCapital), mult50(div50(interestExpense, ebit), div4(depreciationAndAmortization, grossProfit))), otherCurrentLiab))), div10(operatingIncome, beginPeriodCashFlow)))), otherCurrentLiab))), div50(sub(otherNonCashItems, otherCashflowsFromFinancingActivities), div3(freeCashFlow, sellingGeneralAdministrative))), mult50(mult4(grossProfit, operatingIncome), mult2(div4(totalCurrentAssets, otherNonCashItems), mult2(totalOperatingExpenses, otherNonCashItems)))), otherCurrentLiab))), mult2(mult5(otherNonCashItems, operatingIncome), div10(totalAssets, nonCurrentLiabilitiesTotal)))), netInvestedCapital), mult50(div50(interestExpense, ebit), mult2(div4(mult2(cashAndShortTermInvestments, retainedEarnings), otherNonCashItems), mult2(totalOperatingExpenses, otherNonCashItems)))), otherCurrentLiab)))), div2(nonCurrentLiabilitiesTotal, totalAssets))
+Size training data: (616, 43)
+
+Size test data: (156, 43)
+Final training population stats: {'avg': 0.5181762083696808, 'std': 0.13377439213775716, 'min': 0.03003003003003003, 'max': 0.588235294117647}
+
+
+**********
+Sector: = Oil & Gas Equipment & Services
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.8125
+precision = 0.08333333333333333
+recall = 0.125
+f1_score = 0.1
+f0.5_score = 0.08928571428571427
+Best performing rule = buy_sell(div10(sub(sub(netInvestedCapital, add(div10(sub(sub(mul(otherStockholderEquity, otherCurrentLiab), add(div50(netInvestedCapital, sub(sub(netInvestedCapital, add(div50(sub(div10(sub(sub(netInvestedCapital, add(div50(div5(nonCurrrentAssetsOther, mult3(retainedEarnings, add(incomeTaxExpense, otherNonCashItems))), changeInWorkingCapital), liabilitiesAndStockholdersEquity)), add(capitalExpenditures, liabilitiesAndStockholdersEquity)), add(liabilitiesAndStockholdersEquity, freeCashFlow)), netIncomeFromContinuingOps), sub(capitalExpenditures, commonStockSharesOutstanding)), liabilitiesAndStockholdersEquity)), add(capitalExpenditures, liabilitiesAndStockholdersEquity))), liabilitiesAndStockholdersEquity)), add(capitalExpenditures, liabilitiesAndStockholdersEquity)), add(liabilitiesAndStockholdersEquity, freeCashFlow)), liabilitiesAndStockholdersEquity)), add(capitalExpenditures, liabilitiesAndStockholdersEquity)), add(liabilitiesAndStockholdersEquity, freeCashFlow)), mult2(netInvestedCapital, netInvestedCapital))
+Size training data: (992, 43)
+
+Size test data: (248, 43)
+Final training population stats: {'avg': 0.2963711058748204, 'std': 0.13466252975541662, 'min': 0.0, 'max': 0.45731707317073167}
+
+
+**********
+Sector: = Medical Devices
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.9534883720930233
+precision = 0.3333333333333333
+recall = 0.3333333333333333
+f1_score = 0.3333333333333333
+f0.5_score = 0.3333333333333333
+Best performing rule = buy_sell(negate(totalAssets, liabilitiesAndStockholdersEquity), div5(div50(sub(sub(add(div4(netDebt, totalLiab), beginPeriodCashFlow), div5(otherNonCashItems, netInvestedCapital)), div10(protectedDiv(cash, totalLiab), commonStockSharesOutstanding)), cashAndShortTermInvestments), add(grossProfit, otherCashflowsFromFinancingActivities)))
+Size training data: (848, 43)
+
+Size test data: (221, 43)
+Final training population stats: {'avg': 0.3534442316454037, 'std': 0.2484433555583881, 'min': 0.0, 'max': 0.6666666666666666}
+
+
+**********
+Sector: = Engineering & Construction
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div5(netInvestedCapital, div5(netInvestedCapital, negate(div5(netInvestedCapital, sub(div3(sub(commonStock, div5(otherStockholderEquity, nonCurrentLiabilitiesTotal)), mult10(nonCurrentLiabilitiesTotal, liabilitiesAndStockholdersEquity)), mult50(div2(interestExpense, totalOtherIncomeExpenseNet), ebit))), totalCashFromOperatingActivities))), add(add(add(otherStockholderEquity, totalLiab), totalLiab), mult3(totalStockholderEquity, totalStockholderEquity)))
+Size training data: (728, 43)
+
+Size test data: (187, 43)
+Final training population stats: {'avg': 0.363994392851643, 'std': 0.16390826126889374, 'min': 0.0, 'max': 0.6363636363636364}
+
+
+**********
+Sector: = Specialty Retail
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(add(div3(div2(div4(nonCurrentLiabilitiesTotal, totalOperatingExpenses), div2(otherCashflowsFromFinancingActivities, netInvestedCapital)), cashAndShortTermInvestments), div10(div5(sub(div2(div4(otherOperatingExpenses, div4(totalCashFromFinancingActivities, div5(div4(div5(netInvestedCapital, netInvestedCapital), otherCashflowsFromFinancingActivities), add(div4(nonCurrrentAssetsOther, totalLiab), mult2(div2(totalStockholderEquity, totalStockholderEquity), div50(mult3(mult5(totalStockholderEquity, totalRevenue), div2(mul(otherOperatingExpenses, commonStock), div4(totalAssets, totalOperatingExpenses))), div3(div2(capitalExpenditures, div2(otherCashflowsFromFinancingActivities, mul(grossProfit, commonStockSharesOutstanding))), totalStockholderEquity))))))), netInvestedCapital), freeCashFlow), netIncomeFromContinuingOps), mult50(mult3(capitalExpenditures, beginPeriodCashFlow), div50(freeCashFlow, nonCurrentLiabilitiesTotal)))), protectedDiv(otherOperatingExpenses, otherOperatingExpenses))
+Size training data: (568, 43)
+
+Size test data: (150, 43)
+Final training population stats: {'avg': 0.5220695465959696, 'std': 0.2609660888405117, 'min': 0.0, 'max': 0.8333333333333334}
+
+
+**********
+Sector: = Asset Management
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div50(add(netInvestedCapital, negate(totalOperatingExpenses, div5(div50(div50(add(endPeriodCashFlow, add(freeCashFlow, otherNonCashItems)), sub(negate(div50(div50(add(netInvestedCapital, endPeriodCashFlow), sub(sub(div50(add(endPeriodCashFlow, add(div50(add(netInvestedCapital, sub(liabilitiesAndStockholdersEquity, netIncomeFromContinuingOps)), sub(sub(sub(negate(totalOperatingExpenses, netInvestedCapital), netIncomeFromContinuingOps), div5(totalCurrentAssets, totalStockholderEquity)), liabilitiesAndStockholdersEquity)), otherNonCashItems)), sub(negate(totalOperatingExpenses, netDebt), sub(sub(totalAssets, incomeTaxExpense), div4(cash, totalOtherIncomeExpenseNet)))), negate(totalCashFromOperatingActivities, div50(div4(commonStockSharesOutstanding, otherStockholderEquity), sub(add(netInvestedCapital, endPeriodCashFlow), netIncomeFromContinuingOps)))), netIncomeFromContinuingOps)), otherCashflowsFromFinancingActivities), netDebt), netIncomeFromContinuingOps)), otherCashflowsFromFinancingActivities), netInvestedCapital))), sub(negate(totalOperatingExpenses, netInvestedCapital), div3(sellingGeneralAdministrative, ebit))), protectedDiv(liabilitiesAndStockholdersEquity, liabilitiesAndStockholdersEquity))
+Size training data: (4096, 43)
+
+Size test data: (1031, 43)
+Final training population stats: {'avg': 0.391129380378127, 'std': 0.14454775645014406, 'min': 0.0, 'max': 0.5384615384615384}
+
+
+**********
+Sector: = Banks - Diversified
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.9574468085106383
+precision = 1.0
+recall = 0.2
+f1_score = 0.33333333333333337
+f0.5_score = 0.5555555555555556
+Best performing rule = buy_sell(add(add(nonCurrrentAssetsOther, div3(netInvestedCapital, negate(div50(freeCashFlow, totalStockholderEquity), protectedDiv(totalAssets, mult5(div3(add(add(totalCashFromOperatingActivities, otherNonCashItems), sellingGeneralAdministrative), interestExpense), mul(totalLiab, nonCurrentLiabilitiesTotal)))))), div3(add(nonCurrrentAssetsOther, div3(add(nonCurrrentAssetsOther, div3(netInvestedCapital, negate(div50(freeCashFlow, totalStockholderEquity), protectedDiv(totalAssets, mult5(div3(add(protectedDiv(add(accountsPayable, mult2(totalCashFromFinancingActivities, freeCashFlow)), totalCurrentAssets), sellingGeneralAdministrative), interestExpense), mul(totalLiab, nonCurrentLiabilitiesTotal)))))), div5(otherCurrentLiab, div50(div3(div4(otherOperatingExpenses, totalStockholderEquity), div5(beginPeriodCashFlow, div10(div4(commonStockSharesOutstanding, sub(retainedEarnings, sub(add(nonCurrrentAssetsOther, div3(netInvestedCapital, totalCurrentAssets)), commonStockSharesOutstanding))), div4(incomeBeforeTax, accountsPayable)))), div5(incomeBeforeTax, capitalExpenditures))))), div50(totalCurrentAssets, protectedDiv(cash, otherOperatingExpenses)))), retainedEarnings)
+Size training data: (1056, 43)
+
+Size test data: (265, 43)
+Final training population stats: {'avg': 0.6409327206634291, 'std': 0.2540296893415064, 'min': 0.0, 'max': 0.8695652173913042}
+
+
+**********
+Sector: = Specialty Business Services
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(mult2(div10(div10(add(div3(mul(grossProfit, incomeBeforeTax), otherCurrentLiab), div2(grossProfit, totalCurrentLiabilities)), netIncomeFromContinuingOps), netIncomeFromContinuingOps), netInvestedCapital), mult50(totalRevenue, totalRevenue))
+Size training data: (656, 43)
+
+Size test data: (173, 43)
+Final training population stats: {'avg': 0.31989535644272327, 'std': 0.2523386909214594, 'min': 0.0, 'max': 0.6451612903225807}
+
+
+**********
+Sector: = Information Technology Services
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.8543689320388349
+precision = 0.14285714285714285
+recall = 0.1
+f1_score = 0.11764705882352941
+f0.5_score = 0.13157894736842102
+Best performing rule = buy_sell(sub(sub(mult2(liabilitiesAndStockholdersEquity, ebit), mult4(div50(nonCurrentLiabilitiesTotal, nonCurrentAssetsTotal), mult5(accountsPayable, liabilitiesAndStockholdersEquity))), mult4(otherCurrentLiab, mult5(accountsPayable, liabilitiesAndStockholdersEquity))), mult50(totalLiab, totalLiab))
+Size training data: (832, 43)
+
+Size test data: (216, 43)
+Final training population stats: {'avg': 0.2502112529481655, 'std': 0.12430229154333572, 'min': 0.0, 'max': 0.41015625}
+
+
+**********
+Sector: = Farm & Heavy Construction Machinery
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div4(div4(netInvestedCapital, negate(sub(sub(mult10(div4(depreciationAndAmortization, mult5(cashAndShortTermInvestments, totalAssets)), ebit), div2(cashAndShortTermInvestments, beginPeriodCashFlow)), totalCashFromOperatingActivities), netInvestedCapital)), sub(mult10(div4(depreciationAndAmortization, mult5(cashAndShortTermInvestments, totalAssets)), ebit), add(totalCashFromFinancingActivities, sub(changeInWorkingCapital, sub(mult5(endPeriodCashFlow, totalRevenue), totalCashFromOperatingActivities))))), sub(add(add(mult4(otherOperatingExpenses, accountsPayable), mul(beginPeriodCashFlow, beginPeriodCashFlow)), add(otherCurrentLiab, mul(sub(mult5(endPeriodCashFlow, totalRevenue), totalCashFromOperatingActivities), beginPeriodCashFlow))), totalCashFromOperatingActivities))
+Size training data: (464, 43)
+
+Size test data: (120, 43)
+Final training population stats: {'avg': 0.5262041178412481, 'std': 0.2021624393628785, 'min': 0.0, 'max': 0.746268656716418}
+
+
+**********
+Sector: = Specialty Chemicals
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.9098360655737705
+precision = 1.0
+recall = 0.08333333333333333
+f1_score = 0.15384615384615385
+f0.5_score = 0.3125
+Best performing rule = buy_sell(mult3(add(div5(sellingGeneralAdministrative, incomeTaxExpense), div10(netInvestedCapital, mult3(netInvestedCapital, negate(ebitda, mult3(netInvestedCapital, div2(commonStockSharesOutstanding, totalStockholderEquity)))))), grossProfit), mult50(grossProfit, grossProfit))
+Size training data: (1192, 43)
+
+Size test data: (299, 43)
+Final training population stats: {'avg': 0.30004248843651604, 'std': 0.20414937972731106, 'min': 0.0, 'max': 0.6}
+
+
+**********
+Sector: = Drug Manufacturers - Specialty & Generic
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(sub(negate(totalRevenue, add(interestExpense, ebitda)), div5(div50(div5(totalRevenue, otherCashflowsFromFinancingActivities), mult3(commonStockSharesOutstanding, nonCurrrentAssetsOther)), protectedDiv(div5(totalStockholderEquity, div10(otherOperatingExpenses, nonCurrrentAssetsOther)), netInvestedCapital))), mult4(accountsPayable, totalAssets))
+Size training data: (400, 43)
+
+Size test data: (105, 43)
+Final training population stats: {'avg': 0.5380968802381599, 'std': 0.28427868909222853, 'min': 0.0, 'max': 0.875}
+
+
+**********
+Sector: = REIT - Specialty
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div2(div4(netInvestedCapital, freeCashFlow), div10(div4(div50(operatingIncome, mult4(commonStockSharesOutstanding, endPeriodCashFlow)), add(mul(beginPeriodCashFlow, cashAndShortTermInvestments), div50(cash, totalCurrentLiabilities))), div2(div4(netInvestedCapital, freeCashFlow), div10(div4(commonStock, totalCashFromOperatingActivities), add(freeCashFlow, retainedEarnings))))), div3(operatingIncome, operatingIncome))
+Size training data: (528, 43)
+
+Size test data: (136, 43)
+Final training population stats: {'avg': 0.3283245654113338, 'std': 0.3599762698653215, 'min': 0.0, 'max': 0.8333333333333334}
+
+
+**********
+Sector: = REIT - Healthcare Facilities
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(negate(depreciationAndAmortization, grossProfit), mul(div4(mul(add(div4(mul(add(accountsPayable, ebit), sub(div2(div50(sub(negate(depreciationAndAmortization, grossProfit), changeInWorkingCapital), add(netInvestedCapital, ebit)), nonCurrentLiabilitiesTotal), netInvestedCapital)), totalCurrentAssets), ebit), sub(nonCurrentLiabilitiesTotal, netInvestedCapital)), totalCurrentAssets), freeCashFlow))
+Size training data: (424, 43)
+
+Size test data: (107, 43)
+Final training population stats: {'avg': 0.5034457346907706, 'std': 0.4016857901447726, 'min': 0.0, 'max': 0.9090909090909091}
+
+
+**********
+Sector: = Restaurants
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(sub(sub(negate(div50(incomeBeforeTax, ebit), protectedDiv(sellingGeneralAdministrative, netInvestedCapital)), div50(mult2(depreciationAndAmortization, sub(capitalExpenditures, protectedDiv(div5(add(div50(mult2(depreciationAndAmortization, sub(capitalExpenditures, protectedDiv(div5(add(negate(div50(incomeBeforeTax, mult2(netInvestedCapital, div5(ebitda, netDebt))), protectedDiv(mul(div50(div10(commonStock, div3(mult2(totalCurrentAssets, totalStockholderEquity), div50(netIncomeFromContinuingOps, totalCurrentAssets))), totalStockholderEquity), div3(nonCurrrentAssetsOther, nonCurrentAssetsTotal)), netInvestedCapital)), totalLiab), otherOperatingExpenses), div5(incomeBeforeTax, totalOtherIncomeExpenseNet)))), mult3(otherNonCashItems, retainedEarnings)), totalLiab), otherOperatingExpenses), div5(incomeBeforeTax, add(totalAssets, nonCurrentLiabilitiesTotal))))), mult3(otherNonCashItems, retainedEarnings))), mult50(totalCurrentAssets, totalCurrentAssets)), mult50(totalCurrentAssets, div5(netDebt, totalCashFromOperatingActivities)))
+Size training data: (448, 43)
+
+Size test data: (119, 43)
+Final training population stats: {'avg': 0.4706828674962657, 'std': 0.2110777414222557, 'min': 0.0, 'max': 0.7692307692307692}
+
+
+**********
+Sector: = Aerospace & Defense
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.9139784946236559
+precision = 0.25
+recall = 0.16666666666666666
+f1_score = 0.2
+f0.5_score = 0.22727272727272727
+Best performing rule = buy_sell(sub(sub(add(sub(div10(netIncomeFromContinuingOps, div50(grossProfit, ebitda)), nonCurrentAssetsTotal), sub(sub(sub(add(sub(grossProfit, nonCurrentAssetsTotal), totalRevenue), interestExpense), div50(div2(grossProfit, sellingGeneralAdministrative), mult10(div3(nonCurrentAssetsTotal, mult2(add(nonCurrrentAssetsOther, otherCurrentLiab), add(sub(nonCurrrentAssetsOther, div50(operatingIncome, capitalExpenditures)), div50(div2(grossProfit, sellingGeneralAdministrative), negate(div5(mul(otherNonCashItems, retainedEarnings), changeInCash), protectedDiv(sellingGeneralAdministrative, sub(netInvestedCapital, totalOperatingExpenses))))))), interestExpense))), mult2(totalCurrentLiabilities, sellingGeneralAdministrative))), interestExpense), div50(div2(grossProfit, sellingGeneralAdministrative), mult10(div3(nonCurrentAssetsTotal, mult2(add(nonCurrrentAssetsOther, otherCurrentLiab), add(sub(nonCurrrentAssetsOther, div50(operatingIncome, capitalExpenditures)), div50(div2(grossProfit, sellingGeneralAdministrative), sub(protectedDiv(retainedEarnings, retainedEarnings), sub(mult2(liabilitiesAndStockholdersEquity, freeCashFlow), mult10(liabilitiesAndStockholdersEquity, nonCurrentAssetsTotal))))))), otherOperatingExpenses))), mult10(mult10(liabilitiesAndStockholdersEquity, nonCurrentAssetsTotal), mult10(liabilitiesAndStockholdersEquity, nonCurrentAssetsTotal)))
+Size training data: (1048, 43)
+
+Size test data: (263, 43)
+Final training population stats: {'avg': 0.3377238111413415, 'std': 0.10701941032485535, 'min': 0.0, 'max': 0.5056179775280899}
+
+
+**********
+Sector: = Oil & Gas E&P
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.850828729281768
+precision = 0.07692307692307693
+recall = 0.0625
+f1_score = 0.06896551724137931
+f0.5_score = 0.07352941176470588
+Best performing rule = buy_sell(sub(netInvestedCapital, div3(add(div5(netDebt, cash), mult10(ebitda, sellingGeneralAdministrative)), div50(changeInWorkingCapital, totalCurrentAssets))), add(add(add(mult3(nonCurrentLiabilitiesTotal, nonCurrentAssetsTotal), add(add(totalAssets, add(add(totalAssets, mult50(endPeriodCashFlow, endPeriodCashFlow)), mult2(nonCurrentAssetsTotal, div5(netInvestedCapital, cashAndShortTermInvestments)))), mult2(cash, div5(netInvestedCapital, mult50(nonCurrentLiabilitiesTotal, liabilitiesAndStockholdersEquity))))), commonStockSharesOutstanding), mult3(nonCurrentLiabilitiesTotal, nonCurrentAssetsTotal)))
+Size training data: (2040, 43)
+
+Size test data: (513, 43)
+Final training population stats: {'avg': 0.23875171681585708, 'std': 0.09932774467659819, 'min': 0.03289473684210526, 'max': 0.390625}
+
+
+**********
+Sector: = Residential Construction
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(sub(div3(mult10(changeInWorkingCapital, mult4(mult2(div50(totalAssets, totalRevenue), mult2(liabilitiesAndStockholdersEquity, totalRevenue)), mult4(div4(incomeTaxExpense, ebitda), netInvestedCapital))), div10(netInvestedCapital, otherOperatingExpenses)), add(div4(incomeTaxExpense, grossProfit), mult2(accountsPayable, capitalExpenditures))), div50(mult50(commonStockSharesOutstanding, otherStockholderEquity), endPeriodCashFlow))
+Size training data: (576, 43)
+
+Size test data: (145, 43)
+Final training population stats: {'avg': 0.32012951828393815, 'std': 0.16080660773026131, 'min': 0.0, 'max': 0.5603448275862069}
+
+
+**********
+Sector: = Education & Training Services
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(sub(div4(div4(div4(div4(div10(commonStock, beginPeriodCashFlow), mult3(incomeTaxExpense, otherNonCashItems)), totalOperatingExpenses), negate(nonCurrentAssetsTotal, beginPeriodCashFlow)), div10(mult10(freeCashFlow, netIncomeFromContinuingOps), netInvestedCapital)), totalCurrentAssets), add(mult50(interestExpense, interestExpense), mul(commonStockSharesOutstanding, accountsPayable)))
+Size training data: (400, 43)
+
+Size test data: (106, 43)
+Final training population stats: {'avg': 0.5543518892273843, 'std': 0.29889647595691665, 'min': 0.0, 'max': 0.8823529411764706}
+
+
+**********
+Sector: = Oil & Gas Refining & Marketing
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.8775510204081632
+precision = 0.6666666666666666
+recall = 0.2857142857142857
+f1_score = 0.4
+f0.5_score = 0.5263157894736842
+Best performing rule = buy_sell(div3(mult2(div2(totalCurrentAssets, netInvestedCapital), cashAndShortTermInvestments), div4(netInvestedCapital, protectedDiv(sub(sub(sub(netInvestedCapital, div3(nonCurrentLiabilitiesTotal, sub(totalCashFromOperatingActivities, totalCurrentLiabilities))), netDebt), mult3(depreciationAndAmortization, nonCurrentLiabilitiesTotal)), netDebt))), totalAssets)
+Size training data: (528, 43)
+
+Size test data: (137, 43)
+Final training population stats: {'avg': 0.42301454999646587, 'std': 0.24762632644496826, 'min': 0.0, 'max': 0.7547169811320754}
+
+
+**********
+Sector: = Capital Markets
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.8854166666666666
+precision = 0.2857142857142857
+recall = 0.25
+f1_score = 0.26666666666666666
+f0.5_score = 0.2777777777777778
+Best performing rule = buy_sell(div3(add(div50(netInvestedCapital, div4(mult50(add(div50(mult2(accountsPayable, retainedEarnings), netIncomeFromContinuingOps), netInvestedCapital), totalOtherIncomeExpenseNet), sub(sellingGeneralAdministrative, div50(div3(add(div50(netInvestedCapital, div4(mult50(netInvestedCapital, totalOtherIncomeExpenseNet), sub(sellingGeneralAdministrative, mult3(div50(totalCurrentLiabilities, sub(cashAndShortTermInvestments, mult3(endPeriodCashFlow, netIncomeFromContinuingOps))), div5(otherStockholderEquity, liabilitiesAndStockholdersEquity))))), netInvestedCapital), protectedDiv(totalCashFromOperatingActivities, netInvestedCapital)), netIncomeFromContinuingOps)))), netInvestedCapital), protectedDiv(totalCashFromOperatingActivities, netInvestedCapital)), add(liabilitiesAndStockholdersEquity, endPeriodCashFlow))
+Size training data: (888, 43)
+
+Size test data: (230, 43)
+Final training population stats: {'avg': 0.3692044790598719, 'std': 0.20269702279971508, 'min': 0.0, 'max': 0.6081081081081081}
+
+
+**********
+Sector: = Diagnostics & Research
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(protectedDiv(netInvestedCapital, mult3(mult2(div2(mult5(changeInCash, div3(sellingGeneralAdministrative, accountsPayable)), mult2(ebitda, netDebt)), ebitda), grossProfit)), mult50(add(nonCurrentAssetsTotal, capitalExpenditures), totalRevenue))
+Size training data: (464, 43)
+
+Size test data: (120, 43)
+Final training population stats: {'avg': 0.28866925399740684, 'std': 0.21323973465542242, 'min': 0.0, 'max': 0.6060606060606061}
+
+
+**********
+Sector: = Oil & Gas Integrated
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div50(add(div10(nonCurrrentAssetsOther, cash), netInvestedCapital), div4(nonCurrrentAssetsOther, totalRevenue)), div3(liabilitiesAndStockholdersEquity, totalAssets))
+Size training data: (496, 43)
+
+Size test data: (128, 43)
+Final training population stats: {'avg': 0.4347267863846749, 'std': 0.23610566136003913, 'min': 0.0, 'max': 0.625}
+
+
+**********
+Sector: = REIT - Office
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div10(div2(incomeBeforeTax, div10(div2(div4(sub(div5(otherCurrentLiab, totalCurrentLiabilities), endPeriodCashFlow), mult3(otherCashflowsFromFinancingActivities, netInvestedCapital)), sellingGeneralAdministrative), div3(totalRevenue, protectedDiv(endPeriodCashFlow, netIncomeFromContinuingOps)))), div3(div3(sellingGeneralAdministrative, protectedDiv(endPeriodCashFlow, netIncomeFromContinuingOps)), mult3(ebit, changeInCash))), mult4(ebit, ebit))
+Size training data: (776, 43)
+
+Size test data: (196, 43)
+Final training population stats: {'avg': 0.4068668791261208, 'std': 0.3853683268095425, 'min': 0.0, 'max': 0.8333333333333334}
+
+
+**********
+Sector: = Rental & Leasing Services
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.9298245614035088
+precision = 0.5
+recall = 0.5
+f1_score = 0.5
+f0.5_score = 0.5
+Best performing rule = buy_sell(negate(netInvestedCapital, netInvestedCapital), div5(endPeriodCashFlow, mult10(add(protectedDiv(commonStock, add(totalLiab, mult10(add(protectedDiv(commonStock, ebit), add(div4(commonStock, otherStockholderEquity), endPeriodCashFlow)), endPeriodCashFlow))), add(nonCurrentLiabilitiesTotal, nonCurrentLiabilitiesTotal)), add(cashAndShortTermInvestments, netInvestedCapital))))
+Size training data: (488, 43)
+
+Size test data: (128, 43)
+Final training population stats: {'avg': 0.34074178223232754, 'std': 0.19662883898769629, 'min': 0.0, 'max': 0.6481481481481481}
+
+
+**********
+Sector: = REIT - Residential
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.8428571428571429
+precision = 0.3333333333333333
+recall = 0.1
+f1_score = 0.15384615384615383
+f0.5_score = 0.22727272727272724
+Best performing rule = buy_sell(mult2(sub(sub(changeInCash, sub(div3(netInvestedCapital, add(mult2(totalAssets, incomeTaxExpense), div2(sub(changeInCash, div4(operatingIncome, incomeTaxExpense)), endPeriodCashFlow))), div10(div2(otherCashflowsFromFinancingActivities, nonCurrrentAssetsOther), div3(ebitda, mul(interestExpense, sub(cashAndShortTermInvestments, div10(mult2(totalStockholderEquity, liabilitiesAndStockholdersEquity), div3(liabilitiesAndStockholdersEquity, netIncomeFromContinuingOps)))))))), div3(netInvestedCapital, add(mult10(totalRevenue, totalAssets), div2(div5(liabilitiesAndStockholdersEquity, incomeBeforeTax), totalOtherIncomeExpenseNet)))), netInvestedCapital), mult50(sellingGeneralAdministrative, sellingGeneralAdministrative))
+Size training data: (680, 43)
+
+Size test data: (172, 43)
+Final training population stats: {'avg': 0.5435761034783458, 'std': 0.2278708692538649, 'min': 0.0, 'max': 0.7894736842105263}
+
+
+**********
+Sector: = Auto & Truck Dealerships
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(mult50(retainedEarnings, div10(div10(div10(netDebt, changeInWorkingCapital), sub(freeCashFlow, netInvestedCapital)), sub(freeCashFlow, div50(nonCurrrentAssetsOther, protectedDiv(sub(div4(div10(netIncomeFromContinuingOps, commonStock), div10(otherCurrentLiab, mult50(retainedEarnings, div10(div10(div10(netDebt, changeInWorkingCapital), sub(freeCashFlow, div50(div5(totalLiab, div50(div5(totalLiab, div10(mult50(retainedEarnings, div10(div10(div10(netDebt, changeInWorkingCapital), sub(freeCashFlow, netInvestedCapital)), sub(freeCashFlow, div50(nonCurrrentAssetsOther, protectedDiv(div3(otherCurrentLiab, incomeTaxExpense), mult50(div10(netDebt, changeInWorkingCapital), mult2(mult50(totalOtherIncomeExpenseNet, commonStock), totalLiab))))))), totalCurrentLiabilities)), sub(freeCashFlow, nonCurrrentAssetsOther))), sub(freeCashFlow, nonCurrrentAssetsOther)))), sub(freeCashFlow, netInvestedCapital))))), nonCurrrentAssetsOther), mult50(operatingIncome, totalStockholderEquity)))))), mult50(sellingGeneralAdministrative, sellingGeneralAdministrative))
+Size training data: (400, 43)
+
+Size test data: (101, 43)
+Final training population stats: {'avg': 0.5352493108146673, 'std': 0.3111033124333939, 'min': 0.0, 'max': 0.8571428571428571}
+
+
+**********
+Sector: = Other Industrial Metals & Mining
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(add(negate(div5(otherCurrentLiab, netInvestedCapital), totalOperatingExpenses), div50(add(protectedDiv(grossProfit, netInvestedCapital), mul(otherCashflowsFromFinancingActivities, totalOperatingExpenses)), div5(otherCurrentLiab, netInvestedCapital))), mult5(accountsPayable, accountsPayable))
+Size training data: (616, 43)
+
+Size test data: (159, 43)
+Final training population stats: {'avg': 0.25147776949633527, 'std': 0.15885548740076835, 'min': 0.0, 'max': 0.5555555555555555}
+
+
+**********
+Sector: = Insurance - Specialty
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(mult50(commonStock, div50(div50(mul(add(mult50(protectedDiv(commonStock, totalAssets), div50(div50(mul(negate(operatingIncome, mult2(freeCashFlow, totalCashFromFinancingActivities)), totalOperatingExpenses), netInvestedCapital), mult50(otherCurrentLiab, div4(mult2(commonStockSharesOutstanding, otherCurrentLiab), div4(liabilitiesAndStockholdersEquity, mult50(interestExpense, protectedDiv(accountsPayable, nonCurrrentAssetsOther))))))), div2(incomeBeforeTax, totalCashFromOperatingActivities)), totalOperatingExpenses), netInvestedCapital), otherCurrentLiab)), commonStock)
+Size training data: (408, 43)
+
+Size test data: (110, 43)
+Final training population stats: {'avg': 0.3445327485073341, 'std': 0.1598849351902545, 'min': 0.0, 'max': 0.6666666666666666}
+
+
+**********
+Sector: = Packaging & Containers
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div50(add(sub(changeInWorkingCapital, div10(add(netInvestedCapital, mult4(sub(commonStock, commonStock), mult4(mult2(div2(mul(totalOtherIncomeExpenseNet, ebitda), div10(changeInCash, grossProfit)), nonCurrentAssetsTotal), endPeriodCashFlow))), div3(div3(otherCurrentLiab, netDebt), sub(otherCurrentLiab, totalLiab)))), div50(div10(accountsPayable, totalCurrentAssets), sellingGeneralAdministrative)), add(otherCurrentLiab, retainedEarnings)), protectedDiv(netDebt, netDebt))
+Size training data: (576, 43)
+
+Size test data: (151, 43)
+Final training population stats: {'avg': 0.3982805469598467, 'std': 0.2376463184677547, 'min': 0.0, 'max': 0.7142857142857143}
+
+
+**********
+Sector: = REIT - Retail
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div4(div10(protectedDiv(mult4(sub(nonCurrentLiabilitiesTotal, totalCurrentLiabilities), div50(totalOtherIncomeExpenseNet, interestExpense)), mult10(div3(retainedEarnings, netInvestedCapital), changeInWorkingCapital)), liabilitiesAndStockholdersEquity), mul(div3(retainedEarnings, netInvestedCapital), mult2(otherCashflowsFromFinancingActivities, beginPeriodCashFlow))), mult4(ebit, ebit))
+Size training data: (944, 43)
+
+Size test data: (243, 43)
+Final training population stats: {'avg': 0.13888518214706483, 'std': 0.13036033636858993, 'min': 0.0, 'max': 0.35714285714285715}
+
+
+**********
+Sector: = Telecom Services
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div10(div10(sub(sub(div10(div10(sub(sub(totalStockholderEquity, protectedDiv(commonStock, mult2(mul(netInvestedCapital, otherOperatingExpenses), div5(liabilitiesAndStockholdersEquity, freeCashFlow)))), mult4(grossProfit, totalCurrentAssets)), depreciationAndAmortization), netInvestedCapital), protectedDiv(commonStock, mult10(operatingIncome, mult10(otherOperatingExpenses, otherStockholderEquity)))), mult4(grossProfit, commonStock)), depreciationAndAmortization), netInvestedCapital), mult4(ebit, ebit))
+Size training data: (856, 43)
+
+Size test data: (217, 43)
+Final training population stats: {'avg': 0.40715298868879385, 'std': 0.24799798738182827, 'min': 0.0, 'max': 0.6976744186046512}
+
+
+**********
+Sector: = Shell Companies
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(negate(capitalExpenditures, otherStockholderEquity), mult3(add(totalCurrentLiabilities, div50(grossProfit, div2(mul(ebitda, netIncomeFromContinuingOps), div5(otherStockholderEquity, netInvestedCapital)))), totalRevenue))
+Size training data: (576, 43)
+
+Size test data: (144, 43)
+Final training population stats: {'avg': 0.7975968236596527, 'std': 0.3774903113977393, 'min': 0.0, 'max': 1.0}
+
+
+**********
+Sector: = Banks - Regional
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div10(netInvestedCapital, otherNonCashItems), add(add(liabilitiesAndStockholdersEquity, mult10(div10(totalCurrentAssets, totalRevenue), div10(depreciationAndAmortization, div5(sellingGeneralAdministrative, capitalExpenditures)))), mult10(div10(div10(div10(depreciationAndAmortization, div5(netInvestedCapital, capitalExpenditures)), totalRevenue), mult5(nonCurrrentAssetsOther, totalCashFromFinancingActivities)), div10(nonCurrentAssetsTotal, div3(add(liabilitiesAndStockholdersEquity, div10(div5(nonCurrentAssetsTotal, totalStockholderEquity), div10(totalCurrentLiabilities, otherCurrentLiab))), netInvestedCapital)))))
+Size training data: (2640, 43)
+
+Size test data: (664, 43)
+Final training population stats: {'avg': 0.23984034953803035, 'std': 0.08099599851103365, 'min': 0.019455252918287938, 'max': 0.33653846153846156}
+
+
+**********
+Sector: = Other
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div5(div3(netInvestedCapital, protectedDiv(retainedEarnings, div2(mult50(liabilitiesAndStockholdersEquity, totalAssets), totalOperatingExpenses))), div10(totalOtherIncomeExpenseNet, div2(freeCashFlow, netDebt))), div4(retainedEarnings, retainedEarnings))
+Size training data: (992, 43)
+
+Size test data: (253, 43)
+Final training population stats: {'avg': 0.3089251657470279, 'std': 0.3461970662923925, 'min': 0.0, 'max': 0.8333333333333334}
+
+
+**********
+Sector: = REIT - Diversified
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.9649122807017544
+precision = 1.0
+recall = 0.3333333333333333
+f1_score = 0.5
+f0.5_score = 0.7142857142857143
+Best performing rule = buy_sell(div5(sub(div5(div4(netInvestedCapital, commonStockSharesOutstanding), mult2(protectedDiv(div2(commonStock, totalCurrentAssets), div50(retainedEarnings, mult10(netInvestedCapital, beginPeriodCashFlow))), totalAssets)), netInvestedCapital), totalAssets), mult50(totalAssets, totalAssets))
+Size training data: (464, 43)
+
+Size test data: (116, 43)
+Final training population stats: {'avg': 0.3847522117378859, 'std': 0.29225328694303215, 'min': 0.0, 'max': 0.8333333333333334}
+
+
+**********
+Sector: = Specialty Industrial Machinery
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div2(negate(nonCurrentLiabilitiesTotal, nonCurrentLiabilitiesTotal), netInvestedCapital), add(div10(mult5(accountsPayable, add(div50(div50(otherCurrentLiab, changeInWorkingCapital), div4(netInvestedCapital, commonStockSharesOutstanding)), protectedDiv(cash, cash))), totalLiab), add(div10(mult3(liabilitiesAndStockholdersEquity, accountsPayable), totalLiab), protectedDiv(cash, cash))))
+Size training data: (1256, 43)
+
+Size test data: (316, 43)
+Final training population stats: {'avg': 0.25935058550241136, 'std': 0.1644299501414255, 'min': 0.0, 'max': 0.5238095238095238}
+
+
+**********
+Sector: = Marine Shipping
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div4(div3(netInvestedCapital, sub(mult5(div10(accountsPayable, totalLiab), netInvestedCapital), div5(retainedEarnings, totalStockholderEquity))), div10(sub(nonCurrrentAssetsOther, div5(sub(mul(div4(totalOperatingExpenses, ebit), incomeBeforeTax), otherNonCashItems), mult5(totalCashFromOperatingActivities, ebit))), totalRevenue)), mult2(cashAndShortTermInvestments, cashAndShortTermInvestments))
+Size training data: (720, 43)
+
+Size test data: (187, 43)
+Final training population stats: {'avg': 0.38002648523610444, 'std': 0.22652708029425805, 'min': 0.0, 'max': 0.6779661016949152}
+
+
+**********
+Sector: = Steel
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(negate(div4(negate(totalOtherIncomeExpenseNet, div4(div50(sub(sub(commonStockSharesOutstanding, div5(mul(mul(otherStockholderEquity, sellingGeneralAdministrative), nonCurrrentAssetsOther), totalAssets)), cash), div2(cash, totalOtherIncomeExpenseNet)), netInvestedCapital)), div2(sellingGeneralAdministrative, netInvestedCapital)), protectedDiv(mult3(totalCashFromFinancingActivities, commonStock), commonStock)), totalStockholderEquity)
+Size training data: (432, 43)
+
+Size test data: (114, 43)
+Final training population stats: {'avg': 0.522151608289857, 'std': 0.26124415372407683, 'min': 0.0, 'max': 0.8333333333333334}
+
+
+**********
+Sector: = Credit Services
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.9418604651162791
+precision = 0.3333333333333333
+recall = 0.25
+f1_score = 0.28571428571428575
+f0.5_score = 0.3125
+Best performing rule = buy_sell(sub(netDebt, grossProfit), add(add(mult50(depreciationAndAmortization, depreciationAndAmortization), protectedDiv(grossProfit, grossProfit)), div4(mult50(negate(netInvestedCapital, totalCurrentAssets), negate(totalOtherIncomeExpenseNet, netIncomeFromContinuingOps)), div4(otherNonCashItems, mult3(div3(beginPeriodCashFlow, mul(totalStockholderEquity, capitalExpenditures)), div5(totalOperatingExpenses, div3(endPeriodCashFlow, div3(incomeTaxExpense, div50(add(beginPeriodCashFlow, commonStock), mult10(changeInCash, freeCashFlow))))))))))
+Size training data: (1016, 43)
+
+Size test data: (260, 43)
+Final training population stats: {'avg': 0.38549205223156296, 'std': 0.18194401720411146, 'min': 0.0, 'max': 0.6976744186046512}
+
+
+**********
+Sector: = REIT - Industrial
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(negate(netInvestedCapital, add(ebit, totalCurrentLiabilities)), add(mult5(accountsPayable, accountsPayable), add(add(ebit, div5(add(ebit, totalCurrentLiabilities), div3(incomeBeforeTax, depreciationAndAmortization))), totalCurrentLiabilities)))
+Size training data: (648, 43)
+
+Size test data: (168, 43)
+Final training population stats: {'avg': 0.31592240482092065, 'std': 0.22209973083466536, 'min': 0.0, 'max': 0.6382978723404255}
+
+
+**********
+Sector: = nan
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.9595959595959596
+precision = 0.6666666666666666
+recall = 0.2222222222222222
+f1_score = 0.3333333333333333
+f0.5_score = 0.47619047619047616
+Best performing rule = buy_sell(negate(div10(div50(cash, otherCashflowsFromFinancingActivities), div10(depreciationAndAmortization, div2(retainedEarnings, freeCashFlow))), netInvestedCapital), mult50(otherStockholderEquity, otherStockholderEquity))
+Size training data: (2752, 43)
+
+Size test data: (693, 43)
+Final training population stats: {'avg': 0.12165219427081281, 'std': 0.1372901997465333, 'min': 0.0, 'max': 0.40540540540540543}
+
+
+**********
+Sector: = Real Estate Services
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(mul(add(div5(protectedDiv(div5(mult5(commonStock, totalLiab), totalCurrentLiabilities), mult50(nonCurrentLiabilitiesTotal, operatingIncome)), totalRevenue), add(div5(protectedDiv(add(div5(netInvestedCapital, netInvestedCapital), netInvestedCapital), add(freeCashFlow, protectedDiv(mult50(changeInWorkingCapital, operatingIncome), capitalExpenditures))), totalRevenue), netInvestedCapital)), otherStockholderEquity), mult10(totalAssets, totalAssets))
+Size training data: (600, 43)
+
+Size test data: (158, 43)
+Final training population stats: {'avg': 0.3900480010540013, 'std': 0.2448658366155806, 'min': 0.0, 'max': 0.7317073170731707}
+
+
+**********
+Sector: = Insurance - Property & Casualty
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(mult4(depreciationAndAmortization, div4(add(totalCurrentAssets, totalStockholderEquity), div10(otherCurrentLiab, netInvestedCapital))), add(add(otherOperatingExpenses, mult50(totalCurrentLiabilities, totalCurrentLiabilities)), add(otherOperatingExpenses, add(div3(operatingIncome, netInvestedCapital), add(div3(operatingIncome, netInvestedCapital), sellingGeneralAdministrative)))))
+Size training data: (872, 43)
+
+Size test data: (221, 43)
+Final training population stats: {'avg': 0.46469353930649543, 'std': 0.2283453263438857, 'min': 0.0, 'max': 0.7692307692307692}
+
+
+**********
+Sector: = Medical Care Facilities
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(sub(div50(add(protectedDiv(totalRevenue, sub(cash, liabilitiesAndStockholdersEquity)), sub(div2(mult3(mult2(div10(div10(mul(changeInWorkingCapital, ebitda), changeInCash), operatingIncome), div4(div5(accountsPayable, mult10(netInvestedCapital, ebit)), netInvestedCapital)), interestExpense), div3(ebit, beginPeriodCashFlow)), netDebt)), mult2(div5(otherOperatingExpenses, interestExpense), interestExpense)), div4(nonCurrentLiabilitiesTotal, div4(nonCurrentLiabilitiesTotal, mult5(totalStockholderEquity, totalCurrentLiabilities)))), mult10(nonCurrentLiabilitiesTotal, nonCurrentLiabilitiesTotal))
+Size training data: (632, 43)
+
+Size test data: (158, 43)
+Final training population stats: {'avg': 0.4401589398853761, 'std': 0.17286853946655495, 'min': 0.0, 'max': 0.5952380952380952}
+
+
+**********
+Sector: = Household & Personal Products
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div5(mul(totalCurrentAssets, protectedDiv(changeInCash, add(totalOperatingExpenses, protectedDiv(depreciationAndAmortization, mult3(totalCurrentAssets, div4(endPeriodCashFlow, otherCurrentLiab)))))), div4(div2(div5(div5(netInvestedCapital, commonStockSharesOutstanding), incomeBeforeTax), div4(interestExpense, div10(commonStock, mult5(mult3(mult5(netDebt, incomeTaxExpense), protectedDiv(totalAssets, mult2(div50(beginPeriodCashFlow, negate(ebit, div5(changeInCash, totalCurrentLiabilities))), commonStockSharesOutstanding))), operatingIncome)))), mult3(incomeTaxExpense, otherNonCashItems))), mult3(totalCurrentAssets, add(grossProfit, totalCurrentAssets)))
+Size training data: (464, 43)
+
+Size test data: (123, 43)
+Final training population stats: {'avg': 0.5202578598949361, 'std': 0.19437078932979854, 'min': 0.0, 'max': 0.6944444444444444}
+
+
+**********
+Sector: = Insurance - Life
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.9512195121951219
+precision = 1.0
+recall = 0.3333333333333333
+f1_score = 0.5
+f0.5_score = 0.7142857142857143
+Best performing rule = buy_sell(div10(negate(div2(div5(mul(div5(netInvestedCapital, liabilitiesAndStockholdersEquity), div10(netInvestedCapital, add(otherStockholderEquity, mult10(div3(div4(changeInWorkingCapital, interestExpense), negate(otherCurrentLiab, div50(add(mult4(cashAndShortTermInvestments, incomeTaxExpense), div10(negate(netInvestedCapital, div10(mult4(beginPeriodCashFlow, depreciationAndAmortization), negate(div4(mul(incomeTaxExpense, interestExpense), div5(totalStockholderEquity, totalRevenue)), negate(div2(div5(mult50(div5(totalLiab, commonStockSharesOutstanding), div3(otherOperatingExpenses, div2(div10(netInvestedCapital, otherNonCashItems), netInvestedCapital))), mult3(div4(otherNonCashItems, beginPeriodCashFlow), changeInCash)), ebitda), div4(mul(div3(changeInCash, mult3(netDebt, otherCurrentLiab)), mult3(totalAssets, div5(cashAndShortTermInvestments, nonCurrentAssetsTotal))), totalCurrentLiabilities))))), depreciationAndAmortization)), netInvestedCapital))), div3(totalRevenue, mult3(div5(mult50(netInvestedCapital, totalCashFromFinancingActivities), mult10(cashAndShortTermInvestments, ebit)), mult5(totalStockholderEquity, freeCashFlow))))))), netInvestedCapital), ebitda), div4(negate(otherCurrentLiab, totalAssets), totalCurrentLiabilities)), otherCurrentLiab), mult2(beginPeriodCashFlow, beginPeriodCashFlow))
+Size training data: (560, 43)
+
+Size test data: (147, 43)
+Final training population stats: {'avg': 0.6511645785553465, 'std': 0.2975334510989906, 'min': 0.0, 'max': 0.9090909090909091}
+
+
+**********
+Sector: = Gold
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(mult2(netInvestedCapital, negate(otherCashflowsFromFinancingActivities, div50(div50(otherOperatingExpenses, mult2(div5(otherStockholderEquity, operatingIncome), negate(negate(interestExpense, div50(div10(sub(mult4(mult4(div50(div3(totalOperatingExpenses, div5(otherCashflowsFromFinancingActivities, div50(nonCurrentAssetsTotal, div10(mult4(freeCashFlow, totalCurrentAssets), negate(otherCashflowsFromFinancingActivities, div50(accountsPayable, sub(totalCurrentAssets, negate(interestExpense, div50(mult10(mul(otherOperatingExpenses, div50(netIncomeFromContinuingOps, otherNonCashItems)), mult5(sub(endPeriodCashFlow, endPeriodCashFlow), mul(cash, protectedDiv(add(cashAndShortTermInvestments, commonStockSharesOutstanding), add(otherNonCashItems, changeInWorkingCapital))))), netInvestedCapital))))))))), accountsPayable), div10(incomeBeforeTax, div10(nonCurrrentAssetsOther, negate(otherCashflowsFromFinancingActivities, mult4(div2(otherOperatingExpenses, commonStockSharesOutstanding), totalRevenue))))), ebit), capitalExpenditures), mult50(protectedDiv(endPeriodCashFlow, nonCurrrentAssetsOther), div3(mul(grossProfit, accountsPayable), div5(incomeBeforeTax, beginPeriodCashFlow)))), netInvestedCapital)), protectedDiv(totalRevenue, totalOperatingExpenses)))), sub(totalCurrentAssets, div4(netInvestedCapital, div50(interestExpense, changeInWorkingCapital)))))), add(add(mult3(grossProfit, grossProfit), beginPeriodCashFlow), add(mult2(totalStockholderEquity, totalStockholderEquity), add(capitalExpenditures, beginPeriodCashFlow))))
+Size training data: (1256, 43)
+
+Size test data: (322, 43)
+Final training population stats: {'avg': 0.5910105785488821, 'std': 0.15490006963137185, 'min': 0.03067484662576687, 'max': 0.7246376811594202}
+
+
+**********
+Sector: = REIT - Mortgage
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div10(netDebt, div50(div2(otherCashflowsFromFinancingActivities, accountsPayable), sub(protectedDiv(add(sellingGeneralAdministrative, mult3(accountsPayable, totalAssets)), totalStockholderEquity), ebit))), add(mult50(interestExpense, interestExpense), add(add(mult50(interestExpense, interestExpense), add(mult50(interestExpense, interestExpense), add(div5(accountsPayable, mult4(nonCurrentAssetsTotal, beginPeriodCashFlow)), add(mult50(interestExpense, interestExpense), add(mult50(interestExpense, interestExpense), add(div50(div4(add(totalOtherIncomeExpenseNet, netInvestedCapital), protectedDiv(otherCurrentLiab, interestExpense)), netIncomeFromContinuingOps), beginPeriodCashFlow)))))), otherCashflowsFromFinancingActivities)))
+Size training data: (1824, 43)
+
+Size test data: (465, 43)
+Final training population stats: {'avg': 0.3105334052324948, 'std': 0.16344202813567546, 'min': 0.0, 'max': 0.5660377358490566}
+
+
+**********
+Sector: = Oil & Gas Midstream
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.8721804511278195
+precision = 0.1111111111111111
+recall = 0.1
+f1_score = 0.10526315789473685
+f0.5_score = 0.10869565217391305
+Best performing rule = buy_sell(negate(totalRevenue, totalRevenue), div2(div4(netInvestedCapital, totalCashFromOperatingActivities), mul(otherCashflowsFromFinancingActivities, mul(nonCurrentLiabilitiesTotal, operatingIncome))))
+Size training data: (1360, 43)
+
+Size test data: (342, 43)
+Final training population stats: {'avg': 0.18865178658767576, 'std': 0.11746053997519416, 'min': 0.0, 'max': 0.3608247422680412}
+
+
+**********
+Sector: = Utilities - Regulated Electric
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div5(mul(cashAndShortTermInvestments, totalRevenue), mul(netInvestedCapital, mul(netInvestedCapital, add(totalCashFromOperatingActivities, capitalExpenditures)))), mult50(nonCurrentLiabilitiesTotal, nonCurrentLiabilitiesTotal))
+Size training data: (1064, 43)
+
+Size test data: (273, 43)
+Final training population stats: {'avg': 0.31100404235713625, 'std': 0.2883420752900187, 'min': 0.0, 'max': 0.7142857142857143}
+
+
+**********
+Sector: = Biotechnology
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div50(div50(grossProfit, sub(div4(mult5(mul(operatingIncome, totalCurrentAssets), div4(interestExpense, netIncomeFromContinuingOps)), protectedDiv(totalCurrentAssets, nonCurrrentAssetsOther)), otherStockholderEquity)), protectedDiv(mult10(div3(div2(cashAndShortTermInvestments, incomeTaxExpense), sub(liabilitiesAndStockholdersEquity, ebit)), netInvestedCapital), freeCashFlow)), add(mult3(liabilitiesAndStockholdersEquity, liabilitiesAndStockholdersEquity), div4(sub(liabilitiesAndStockholdersEquity, ebit), otherOperatingExpenses)))
+Size training data: (768, 43)
+
+Size test data: (201, 43)
+Final training population stats: {'avg': 0.3934730987718146, 'std': 0.1641487074604087, 'min': 0.0, 'max': 0.6756756756756757}
+
+
+**********
+Sector: = Software - Infrastructure
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0.8933333333333333
+precision = 0.4
+recall = 0.2857142857142857
+f1_score = 0.3333333333333333
+f0.5_score = 0.3703703703703704
+Best performing rule = buy_sell(mult5(mult10(totalStockholderEquity, operatingIncome), div50(mult2(netDebt, div50(totalAssets, nonCurrentLiabilitiesTotal)), sub(capitalExpenditures, div3(div5(depreciationAndAmortization, negate(div5(netInvestedCapital, nonCurrentLiabilitiesTotal), div3(mult3(add(interestExpense, changeInCash), mult4(otherCashflowsFromFinancingActivities, freeCashFlow)), changeInCash))), mult3(totalRevenue, otherCurrentLiab))))), mul(totalStockholderEquity, totalStockholderEquity))
+Size training data: (672, 43)
+
+Size test data: (168, 43)
+Final training population stats: {'avg': 0.34613050081689584, 'std': 0.2390370515416683, 'min': 0.0, 'max': 0.6666666666666666}
+
+
+**********
+Sector: = Software - Application
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(div5(mult4(totalCurrentAssets, div2(div5(mult4(otherOperatingExpenses, mult50(totalRevenue, totalAssets)), cash), mult4(mult10(div4(div10(div3(div2(div10(grossProfit, totalCurrentAssets), sellingGeneralAdministrative), div5(add(cashAndShortTermInvestments, div10(grossProfit, div3(div3(otherOperatingExpenses, netDebt), div5(commonStock, interestExpense)))), interestExpense)), mult3(add(div5(otherCurrentLiab, accountsPayable), changeInWorkingCapital), netInvestedCapital)), totalOperatingExpenses), changeInCash), protectedDiv(nonCurrrentAssetsOther, incomeBeforeTax)))), div10(grossProfit, div3(div2(capitalExpenditures, netInvestedCapital), div5(commonStock, interestExpense)))), mult50(add(liabilitiesAndStockholdersEquity, totalCurrentLiabilities), totalAssets))
+Size training data: (1232, 43)
+
+Size test data: (311, 43)
+Final training population stats: {'avg': 0.23723721347641932, 'std': 0.04877546263148456, 'min': 0.0, 'max': 0.29680365296803646}
+
+
+**********
+Sector: = Building Products & Equipment
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(mult2(mult2(nonCurrrentAssetsOther, div3(div4(cashAndShortTermInvestments, nonCurrentLiabilitiesTotal), div5(cashAndShortTermInvestments, otherCurrentLiab))), mul(div3(cash, mul(freeCashFlow, commonStockSharesOutstanding)), netInvestedCapital)), mult10(netInvestedCapital, netInvestedCapital))
+Size training data: (656, 43)
+
+Size test data: (164, 43)
+Final training population stats: {'avg': 0.29851078794840596, 'std': 0.17624914706806058, 'min': 0.0, 'max': 0.5932203389830509}
+
+
+**********
+Sector: = Packaged Foods
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 5000}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(sub(div50(mult2(div50(nonCurrrentAssetsOther, sub(div2(protectedDiv(cash, mul(netIncomeFromContinuingOps, div10(add(otherCurrentLiab, nonCurrentAssetsTotal), beginPeriodCashFlow))), mult4(netIncomeFromContinuingOps, otherNonCashItems)), div4(div4(totalRevenue, nonCurrrentAssetsOther), beginPeriodCashFlow))), div10(netInvestedCapital, div10(div5(otherStockholderEquity, otherCashflowsFromFinancingActivities), negate(otherCashflowsFromFinancingActivities, depreciationAndAmortization)))), changeInWorkingCapital), mult2(commonStock, commonStock)), nonCurrentAssetsTotal)
+Size training data: (720, 43)
+
+Size test data: (183, 43)
+Final training population stats: {'avg': 0.591034097402902, 'std': 0.19251731644586514, 'min': 0.0, 'max': 0.7575757575757576}
+
+
+**********
+Sector: = Insurance - Property & Casualty
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0.6666666666666666
+precision = 0.07142857142857142
+recall = 0.5
+f1_score = 0.125
+f0.5_score = 0.08620689655172412
+Best performing rule = buy_sell(div50(div5(add(add(mult3(otherCashflowsFromFinancingActivities, otherCashflowsFromFinancingActivities), div5(add(mult3(otherCashflowsFromFinancingActivities, mult3(totalCashFromFinancingActivities, capitalExpenditures)), mult50(otherCurrentLiab, endPeriodCashFlow)), netInvestedCapital)), div50(div5(otherNonCashItems, netInvestedCapital), mult3(nonCurrentLiabilitiesTotal, sub(mult3(interestExpense, otherCashflowsFromFinancingActivities), netIncomeFromContinuingOps)))), netInvestedCapital), mult3(nonCurrentLiabilitiesTotal, sellingGeneralAdministrative)), nonCurrentLiabilitiesTotal)
+Size training data: (872, 43)
+
+Size test data: (221, 43)
+Final training population stats: {'avg': 0.2509950559436258, 'std': 0.062401250225130114, 'min': 0.09859154929577464, 'max': 0.33163265306122447}
+
+
+**********
+Sector: = Information Technology Services
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0.5572139303482587
+precision = 0.07317073170731707
+recall = 0.3157894736842105
+f1_score = 0.11881188118811879
+f0.5_score = 0.08645533141210374
+Best performing rule = buy_sell(changeInCash, mul(mult2(mul(mult2(mult2(div4(liabilitiesAndStockholdersEquity, mul(mult2(mul(mult2(mult2(div4(liabilitiesAndStockholdersEquity, netDebt), mult2(totalCurrentAssets, mult2(div2(totalCurrentAssets, add(grossProfit, interestExpense)), totalCurrentAssets))), mult2(totalCurrentAssets, mult2(totalCurrentAssets, otherCurrentLiab))), totalCurrentAssets), mult2(totalCurrentAssets, otherCurrentLiab)), otherCurrentLiab)), mult2(totalCurrentAssets, mult2(div2(totalCurrentAssets, totalAssets), totalCurrentAssets))), mult2(totalCurrentAssets, mult2(totalCurrentAssets, otherCurrentLiab))), totalCurrentAssets), mult2(totalCurrentAssets, otherCurrentLiab)), otherCurrentLiab))
+Size training data: (832, 43)
+
+Size test data: (216, 43)
+Final training population stats: {'avg': 0.17945880218123567, 'std': 0.02509538379288459, 'min': 0.10901162790697673, 'max': 0.20524017467248906}
+
+
+**********
+Sector: = Other Industrial Metals & Mining
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(add(sub(sub(sub(add(sub(div4(div4(totalLiab, add(otherStockholderEquity, otherCurrentLiab)), sellingGeneralAdministrative), accountsPayable), accountsPayable), accountsPayable), accountsPayable), accountsPayable), totalOtherIncomeExpenseNet), netInvestedCapital)
+Size training data: (616, 43)
+
+Size test data: (159, 43)
+Final training population stats: {'avg': 0.2506860566414915, 'std': 0.07038785185581886, 'min': 0.0625, 'max': 0.3196347031963471}
+
+
+**********
+Sector: = Specialty Business Services
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0.7763975155279503
+precision = 0.06666666666666667
+recall = 0.2
+f1_score = 0.1
+f0.5_score = 0.07692307692307691
+Best performing rule = buy_sell(div5(div4(div5(div4(totalLiab, div3(beginPeriodCashFlow, totalCurrentLiabilities)), otherCurrentLiab), div3(totalLiab, totalCurrentLiabilities)), otherCurrentLiab), mul(totalOperatingExpenses, nonCurrentAssetsTotal))
+Size training data: (656, 43)
+
+Size test data: (173, 43)
+Final training population stats: {'avg': 0.17138174965537825, 'std': 0.051405603394702064, 'min': 0.07900677200902935, 'max': 0.21691973969631234}
+
+
+**********
+Sector: = Banks - Regional
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0.7246376811594203
+precision = 0.03225806451612903
+recall = 0.1111111111111111
+f1_score = 0.049999999999999996
+f0.5_score = 0.03759398496240602
+Best performing rule = buy_sell(div50(div5(capitalExpenditures, mult3(capitalExpenditures, protectedDiv(totalLiab, operatingIncome))), div5(netInvestedCapital, mult3(capitalExpenditures, protectedDiv(mult10(totalLiab, retainedEarnings), operatingIncome)))), ebit)
+Size training data: (2640, 43)
+
+Size test data: (664, 43)
+Final training population stats: {'avg': 0.1283271725962476, 'std': 0.025483237753926698, 'min': 0.07080720210398544, 'max': 0.15592515592515593}
+
+
+**********
+Sector: = Oil & Gas Integrated
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(negate(mult10(grossProfit, netDebt), grossProfit), netInvestedCapital)
+Size training data: (496, 43)
+
+Size test data: (128, 43)
+Final training population stats: {'avg': 0.153881582927733, 'std': 0.0944364798713654, 'min': 0.0, 'max': 0.2777777777777778}
+
+
+**********
+Sector: = Diagnostics & Research
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0.8297872340425532
+precision = 0.2
+recall = 0.2
+f1_score = 0.20000000000000004
+f0.5_score = 0.2
+Best performing rule = buy_sell(sub(sub(netInvestedCapital, div2(netDebt, grossProfit)), mult3(capitalExpenditures, totalCurrentLiabilities)), negate(negate(netInvestedCapital, mult3(cashAndShortTermInvestments, mult3(div10(otherCurrentLiab, otherOperatingExpenses), nonCurrentAssetsTotal))), cashAndShortTermInvestments))
+Size training data: (464, 43)
+
+Size test data: (120, 43)
+Final training population stats: {'avg': 0.17366412049733143, 'std': 0.0867778650488595, 'min': 0.0, 'max': 0.2892561983471075}
+
+
+**********
+Sector: = Telecom Services
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0.5925925925925926
+precision = 0.03125
+recall = 0.3333333333333333
+f1_score = 0.05714285714285714
+f0.5_score = 0.03816793893129771
+Best performing rule = buy_sell(netInvestedCapital, add(mult50(div4(otherStockholderEquity, add(div2(add(div2(interestExpense, div4(otherStockholderEquity, add(div2(add(div2(interestExpense, commonStockSharesOutstanding), totalLiab), commonStockSharesOutstanding), div3(sellingGeneralAdministrative, totalCurrentLiabilities)))), totalLiab), commonStockSharesOutstanding), totalLiab)), depreciationAndAmortization), add(mult50(div4(otherStockholderEquity, add(div2(add(div2(add(mult50(div4(otherStockholderEquity, add(div2(mult3(otherCashflowsFromFinancingActivities, otherCashflowsFromFinancingActivities), commonStockSharesOutstanding), totalLiab)), depreciationAndAmortization), add(mult50(div4(otherStockholderEquity, div4(otherStockholderEquity, add(div2(add(div2(mult3(otherCashflowsFromFinancingActivities, otherCashflowsFromFinancingActivities), commonStockSharesOutstanding), totalLiab), commonStockSharesOutstanding), totalLiab))), mult5(totalAssets, otherOperatingExpenses)), totalLiab)), commonStockSharesOutstanding), totalLiab), commonStockSharesOutstanding), totalLiab)), depreciationAndAmortization), totalLiab)))
+Size training data: (856, 43)
+
+Size test data: (217, 43)
+Final training population stats: {'avg': 0.1821243001908679, 'std': 0.04296325419842534, 'min': 0.04854368932038835, 'max': 0.21428571428571427}
+
+
+**********
+Sector: = REIT - Hotel & Motel
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0.8417721518987342
+precision = 0.07407407407407407
+recall = 1.0
+f1_score = 0.13793103448275862
+f0.5_score = 0.0909090909090909
+Best performing rule = buy_sell(mult5(retainedEarnings, nonCurrentLiabilitiesTotal), grossProfit)
+Size training data: (640, 43)
+
+Size test data: (163, 43)
+Final training population stats: {'avg': 0.09484728197998951, 'std': 0.05525810299841064, 'min': 0.01329787234042553, 'max': 0.15476190476190477}
+
+
+**********
+Sector: = Asset Management
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0.6649484536082474
+precision = 0.07692307692307693
+recall = 0.5
+f1_score = 0.13333333333333336
+f0.5_score = 0.09259259259259259
+Best performing rule = buy_sell(protectedDiv(mult4(protectedDiv(mult4(accountsPayable, netInvestedCapital), mult10(totalCashFromFinancingActivities, negate(commonStockSharesOutstanding, mult4(accountsPayable, mult4(mult5(ebit, div5(totalAssets, totalLiab)), netInvestedCapital))))), netInvestedCapital), mult10(totalCashFromFinancingActivities, negate(div5(commonStockSharesOutstanding, ebitda), mult4(accountsPayable, mult4(mult3(totalAssets, ebitda), netInvestedCapital))))), beginPeriodCashFlow)
+Size training data: (4096, 43)
+
+Size test data: (1031, 43)
+Final training population stats: {'avg': 0.0832410969268036, 'std': 0.024444833903284603, 'min': 0.034975442774222355, 'max': 0.11061946902654868}
+
+
+**********
+Sector: = Oil & Gas Midstream
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0.672
+precision = 0.08108108108108109
+recall = 0.3
+f1_score = 0.12765957446808512
+f0.5_score = 0.0949367088607595
+Best performing rule = buy_sell(div3(div3(netInvestedCapital, sub(cash, commonStock)), div3(div3(netInvestedCapital, netIncomeFromContinuingOps), netIncomeFromContinuingOps)), netIncomeFromContinuingOps)
+Size training data: (1360, 43)
+
+Size test data: (342, 43)
+Final training population stats: {'avg': 0.18394553171349728, 'std': 0.059032158360066846, 'min': 0.07194244604316546, 'max': 0.23577235772357724}
+
+
+**********
+Sector: = Insurance - Specialty
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0
+precision = 0
+recall = 0
+f1_score = 0
+f0.5_score = 0
+Best performing rule = buy_sell(totalCashFromFinancingActivities, endPeriodCashFlow)
+Size training data: (408, 43)
+
+Size test data: (110, 43)
+Final training population stats: {'avg': 0.09053726953668033, 'std': 0.04619193304844045, 'min': 0.0, 'max': 0.13711151736745886}
+
+
+**********
+Sector: = Building Products & Equipment
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0.7142857142857143
+precision = 0.21739130434782608
+recall = 0.7142857142857143
+f1_score = 0.3333333333333333
+f0.5_score = 0.25252525252525254
+Best performing rule = buy_sell(netInvestedCapital, sub(totalRevenue, div5(mult2(capitalExpenditures, interestExpense), div5(div5(totalRevenue, incomeBeforeTax), mult3(totalRevenue, mult2(capitalExpenditures, interestExpense))))))
+Size training data: (656, 43)
+
+Size test data: (164, 43)
+Final training population stats: {'avg': 0.16293600520702906, 'std': 0.04250512149661634, 'min': 0.0, 'max': 0.19498607242339835}
+
+
+**********
+Sector: = Capital Markets
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 50}
+accuracy = 0.8556701030927835
+precision = 0.2
+recall = 0.25
+f1_score = 0.22222222222222224
+f0.5_score = 0.20833333333333334
+Best performing rule = buy_sell(div10(netInvestedCapital, div10(netInvestedCapital, protectedDiv(totalCurrentAssets, commonStockSharesOutstanding))), endPeriodCashFlow)
+Size training data: (888, 43)
+
+Size test data: (230, 43)
+Final training population stats: {'avg': 0.20460576629114946, 'std': 0.12018301514408987, 'min': 0.03861003861003861, 'max': 0.330188679245283}
+
+
+**********
+Sector: = Asset Management
+Parameters: {'Crossover': 0.5, 'Generations': 20, 'Mutation': 0.5, 'Population': 100}
+accuracy = 0.85
+precision = 0.07407407407407407
+recall = 0.2
+f1_score = 0.10810810810810811
+f0.5_score = 0.0847457627118644
+Best performing rule = buy_sell(mult5(div4(totalRevenue, totalLiab), sub(netInvestedCapital, ebitda)), mult2(grossProfit, grossProfit))
+Size training data: (4096, 43)
+
+Size test data: (1031, 43)
+Final training population stats: {'avg': 0.07063473834768608, 'std': 0.02832813181165515, 'min': 0.015576323987538939, 'max': 0.11037527593818984}
